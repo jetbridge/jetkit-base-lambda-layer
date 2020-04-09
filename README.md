@@ -16,6 +16,7 @@ Includes flask, sqlalchemy, faker, pytest, bs4, and more.
 ```
 - arn:aws:lambda:eu-west-1:898466741470:layer:jetkit-py37:1
 - arn:aws:lambda:eu-central-1:898466741470:layer:jetkit-py37:1
+- arn:aws:lambda:us-west-2:898466741470:layer:jetkit-py37:1
 ```
 
 
