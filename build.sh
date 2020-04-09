@@ -2,16 +2,8 @@
 
 set -e
 
-rm -rf layer
+rm -rf build
 docker build -t layerbuild .
 CONTAINER=$(docker run -d layerbuild false)
-docker cp $CONTAINER:/opt build
+docker cp $CONTAINER:/var/task build
 docker rm $CONTAINER
-touch build/.slsignore
-cat > build/.slsignore << EOF
-**/*.a
-**/*.la
-share/**
-include/**
-bin/**
-EOF

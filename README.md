@@ -12,6 +12,13 @@ Includes flask, sqlalchemy, faker, pytest, bs4, and more.
 - arn:aws:lambda:eu-central-1:898466741470:layer:jetkit-py38:2
 ```
 
+### Python 3.7
+```
+- arn:aws:lambda:eu-west-1:898466741470:layer:jetkit-py37:1
+- arn:aws:lambda:eu-central-1:898466741470:layer:jetkit-py37:1
+```
+
+
 ## Serverless
 If using serverless, you will need the following in your `serverless.yml`:
 ```

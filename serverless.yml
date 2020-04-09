@@ -1,4 +1,4 @@
-service: jetkit-py38
+service: jetkit-py37
 
 provider:
   name: aws
@@ -9,10 +9,10 @@ provider:
 layers:
   jetkit:
     path: build
-    name: jetkit-py38
+    name: jetkit-py37
     description: "Python: werkzeug flask sqlalchemy faker pytest future pytz alembic jinja2 bs4 requests marshmallow"
     compatibleRuntimes:
-      - python3.8
+      - python3.7
     allowedAccounts:
       - '*'
     retain: true
