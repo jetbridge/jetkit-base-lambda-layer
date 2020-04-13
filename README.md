@@ -8,7 +8,7 @@ Includes flask, sqlalchemy, faker, pytest, bs4, and more.
 ## ARN
 ### Python 3.8
 ```
-- arn:aws:lambda:eu-west-1:898466741470:layer:jetkit-py38:2
+- arn:aws:lambda:eu-west-1:898466741470:layer:jetkit-py38:3
 - arn:aws:lambda:eu-central-1:898466741470:layer:jetkit-py38:2
 ```
 
