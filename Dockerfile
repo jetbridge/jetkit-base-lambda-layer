@@ -1,4 +1,4 @@
-ARG PY_VERSION=3.7
+ARG PY_VERSION=3.8
 
 FROM lambci/lambda:build-python${PY_VERSION}
 
